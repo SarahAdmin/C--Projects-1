@@ -12,7 +12,7 @@ namespace myApplication
       Console.WriteLine(name); 
       int num = 8; 
       Console.WriteLine(num); 
-      bool MyBoolean = True; 
+      bool MyBoolean = true; 
       Console.WriteLine(MyBoolean); 
       
     }
