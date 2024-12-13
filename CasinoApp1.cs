@@ -2,7 +2,7 @@ using System;
 namespace CasinoApp { 
   class gameOne { 
     static void Main(string[] args) { 
-      Console.ReadLine("Enter your name:  ");
+      Console.WriteLine("Enter your name:  ");
       string name = Console.ReadLine(); 
       Console.WriteLine("Enter your lucky number: "); 
       int luckNum = Convert.ToInt32(Console.ReadLine()); 
