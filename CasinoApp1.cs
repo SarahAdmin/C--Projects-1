@@ -5,7 +5,7 @@ namespace CasinoApp {
       Console.ReadLine("Enter your name:  ");
       string name = Console.ReadLine(); 
       Console.WriteLine("Enter your lucky number: "); 
-      int luckNum = ToInt32(Console.ReadLine()); 
+      int luckNum = Convert.ToInt32(Console.ReadLine()); 
       Console.WriteLine("Name: "+name); 
       Console.WriteLine("Lucky Number:"+luckNum); 
     }
