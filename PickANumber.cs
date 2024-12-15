@@ -5,7 +5,7 @@ namespace LuckNum2 {
       Console.WriteLine("Enter your number: "); 
       int num = Convert.ToInt32(Console.ReadLine()); 
 
-      switch (num);
+      switch (num) {
       case: 20: 
       Console.WriteLine("You got a number "+num);
       break; 
@@ -20,6 +20,7 @@ namespace LuckNum2 {
       default: 
       ConsoleWriteLine("You got number more than 25 is "+num);
       break;
+      }
       
     }
   }
