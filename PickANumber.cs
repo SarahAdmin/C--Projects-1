@@ -6,14 +6,14 @@ namespace LuckNum2 {
       int num = Convert.ToInt32(Console.ReadLine()); 
 
       switch (num) {
-      case: 20: 
+    case 20: 
       Console.WriteLine("You got a number "+num);
       break; 
-      case: 21: 
-      case: 22: 
-      case: 23: 
-      case: 24: 
-      case: 25: 
+    case 21: 
+    case 22: 
+    case 23: 
+    case 24: 
+    case 25: 
       Console.WriteLine("You got a number "+num); 
       Console.WriteLine("You have a prize!");
       break; 
