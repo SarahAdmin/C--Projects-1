@@ -18,7 +18,7 @@ namespace LuckNum2 {
       Console.WriteLine("You have a prize!");
       break; 
       default: 
-      ConsoleWriteLine("You got number more than 25 is "+num);
+      Console.WriteLine("You got number more than 25 is "+num);
       break;
       }
       
