@@ -3,7 +3,7 @@ namespace Game1 {
   class RollADice { 
     static void Main(string[] args) {
       Random rgame = new Random(); 
-      int dice = rgame.Next(1,6); 
+      int dice = rgame.Next(1,7); 
       switch(dice) { 
         case 1: 
         Console.WriteLine(dice);
