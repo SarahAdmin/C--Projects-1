@@ -3,7 +3,7 @@ namespace dicework1 {
   class RollADice2 { 
     static void main(string[] args) { 
       Random RGame = new Random();
-      int num = RGame.Next(1,6); 
+      int num = RGame.Next(1,7); 
       if(num == 1) { 
       Console.WriteLine(num);
       Console.WriteLine("You rolled Number One");
