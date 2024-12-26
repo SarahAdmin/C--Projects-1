@@ -2,7 +2,7 @@ using System;
 namespace GameWork1 { 
   class LuckyEight { 
     static void Main(string[] args) { 
-      Random randgame = New Random();
+      Random randgame = new Random();
         int num = randgame.Next(1,9);
        switch(num) {
          case 1: 
