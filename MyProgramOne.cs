@@ -1,6 +1,9 @@
 using System; 
 namespace MyObjects { 
-  class MyProgramOne { 
+  class Car { 
+    string model; 
+    string colour; 
+    int year;
     static void Main(string[] args) { 
       Car Toyota = new Car(); 
       Toyota.model = "Yaris"; 
