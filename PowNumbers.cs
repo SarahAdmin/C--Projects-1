@@ -5,10 +5,10 @@ namespace NumApp {
       return Math.Sqrt(num); 
       }
     static void Main(string[] args) { 
-      MySquareNum(25); 
-      MySquareNum(32); 
-      MySquareNum(64); 
-      MySquareNum(256); 
+      Console.WriteLine(MySquareNum(25)); 
+      Console.WriteLine(MySquareNum(32)); 
+      Console.WriteLine(MySquareNum(64)); 
+      Console.WriteLine(MySquareNum(256)); 
       
     }
   }
