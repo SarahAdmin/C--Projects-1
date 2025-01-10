@@ -1,7 +1,7 @@
 using System; 
 namespace NumApp2 {
   class NearestMoney { 
-    static double MyMoney(double num) { 
+    static decimal MyMoney(decimal num) { 
       return Math.Round(num);
       }
     static void (string[] args) {
